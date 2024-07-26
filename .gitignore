@@ -1,0 +1,16 @@
+build/*
+*.log
+sdkconfig
+sdkconfig.old
+.vscode/settings.json
+*.bak
+nvs/AmazonRootCA1.pem
+nvs/certificate.pem.crt
+nvs/device_id.txt
+nvs/private.pem.key
+nvs/public.pem.key
+version.txt
+version.mk
+doc/html
+managed_components
+dependencies.lock

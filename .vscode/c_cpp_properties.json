@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "compilerPath": "${config:idf.toolsPathWin}\\tools\\xtensa-esp-elf\\esp-13.2.0_20230928\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/main",
+                "${workspaceFolder}/build/config",
+                "${workspaceFolder}/libraries/ota-for-aws-iot-embedded-sdk/config",
+                "${workspaceFolder}/libraries/**",
+                "${config:idf.espIdfPathWin}/components/esp_hw_support/include",
+                "${config:idf.espIdfPathWin}/components/esp_rom/include",
+                "${config:idf.espIdfPathWin}/components/esp_system/include",
+                "${config:idf.espIdfPathWin}/components/freertos/config/include",
+                "${config:idf.espIdfPathWin}/components/freertos/config/include/freertos",
+                "${config:idf.espIdfPathWin}/components/freertos/esp_additions/include",
+                "${config:idf.espIdfPathWin}/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos",
+                "${config:idf.espIdfPathWin}/components/newlib/platform_include",
+                "${config:idf.espIdfPathWin}/components/soc/esp32/include",
+                "${config:idf.espIdfPathWin}/components/xtensa/esp32/include",
+                "${config:idf.espIdfPathWin}/components/xtensa/include",
+                "${config:idf.espIdfPathWin}/components/**"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/main",
+                    "${workspaceFolder}/build/config",
+                    "${workspaceFolder}/libraries/ota-for-aws-iot-embedded-sdk/config",
+                    "${workspaceFolder}/libraries/**",
+                    "${config:idf.espIdfPathWin}/components/esp_hw_support/include",
+                    "${config:idf.espIdfPathWin}/components/esp_rom/include",
+                    "${config:idf.espIdfPathWin}/components/esp_system/include",
+                    "${config:idf.espIdfPathWin}/components/freertos/config/include",
+                    "${config:idf.espIdfPathWin}/components/freertos/config/include/freertos",
+                    "${config:idf.espIdfPathWin}/components/freertos/esp_additions/include/freertos",
+                    "${config:idf.espIdfPathWin}/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos",
+                    "${config:idf.espIdfPathWin}/components/newlib/platform_include",
+                    "${config:idf.espIdfPathWin}/components/soc/esp32/include",
+                    "${config:idf.espIdfPathWin}/components/xtensa/esp32/include",
+                    "${config:idf.espIdfPathWin}/components/xtensa/include",
+                    "${config:idf.espIdfPathWin}/components/**"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}
